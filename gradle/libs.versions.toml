@@ -1,0 +1,4 @@
+[versions]
+ndk="29.0.14206865"
+minSdk = "21"
+maxSdk = "36"
