@@ -1,4 +1,4 @@
-package tp.xmaihh.serialport.stick;
+package com.github.nmahnic.stick;
 
 import java.io.IOException;
 import java.io.InputStream;

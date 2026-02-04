@@ -1,4 +1,4 @@
-package com.ex.serialport.adapter;
+package com.nicomahnic.serialport.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.ex.serialport.R;
+import com.nicomahnic.serialport.R;
 
 public class SpAdapter extends BaseAdapter {
 

@@ -1,4 +1,4 @@
-package tp.xmaihh.serialport.utils;
+package com.github.nmahnic.utils;
 
 public class ByteUtil {
     public static int isOdd(int num) {

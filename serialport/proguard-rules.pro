@@ -19,5 +19,5 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
--keep class tp.xmaihh.serialport.**{*;}
+-keep class io.github.nmahnic.serialport.**{*;}
 -keep class android_serialport_api.**{*;}

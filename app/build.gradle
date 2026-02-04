@@ -4,7 +4,7 @@ android {
     compileSdk = libs.versions.maxSdk.get().toInteger()
 
     defaultConfig {
-        applicationId "com.ex.serialport"
+        applicationId "com.nicomahnic.serialport"
         minSdk = libs.versions.minSdk.get().toInteger()
         targetSdk = libs.versions.maxSdk.get().toInteger()
         versionCode = gitVersionCode
@@ -13,10 +13,10 @@ android {
     buildTypes {
         release {
             minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    namespace 'com.ex.serialport'
+    namespace 'com.nicomahnic.serialport'
     android.applicationVariants.configureEach { variant ->
         variant.outputs.configureEach { output ->
             def fileName = "AndroidSerialportSample-${defaultConfig.versionCode}_${defaultConfig.versionName}.apk"
