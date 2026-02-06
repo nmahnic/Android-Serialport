@@ -8,7 +8,8 @@ Porting Google's official serial port library [android-serialport-api](https://c
 [![GitHub forks](https://img.shields.io/github/forks/nmahnic/Android-Serialport.svg)](https://github.com/nmahnic/Android-Serialport/network)
 [![GitHub issues](https://img.shields.io/github/issues/nmahnic/Android-Serialport.svg)](https://github.com/nmahnic/Android-Serialport/issues)
 [![GitHub stars](https://img.shields.io/github/stars/nmahnic/Android-Serialport.svg)](https://github.com/nmahnic/Android-Serialport/stargazers)
-[![Source persent](https://img.shields.io/badge/Java-73.2%25-brightgreen.svg)](https://github.com/nmahnic/Android-Serialport/search?l=C)
+[![Top Lang](https://img.shields.io/github/languages/top/nmahnic/Android-Serialport)](https://github.com/nmahnic/Android-Serialport)
+[![Lang count](https://img.shields.io/github/languages/count/nmahnic/Android-Serialport)](https://github.com/nmahnic/Android-Serialport)
 [![GitHub license](https://img.shields.io/github/license/nmahnic/Android-Serialport.svg)](https://github.com/nmahnic/Android-Serialport)
 
 # Usage
