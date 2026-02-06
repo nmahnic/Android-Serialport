@@ -9,18 +9,17 @@ Porting Google's official serial port library [android-serialport-api](https://c
 [![GitHub issues](https://img.shields.io/github/issues/nmahnic/Android-Serialport.svg)](https://github.com/nmahnic/Android-Serialport/issues)
 [![GitHub stars](https://img.shields.io/github/stars/nmahnic/Android-Serialport.svg)](https://github.com/nmahnic/Android-Serialport/stargazers)
 [![Source persent](https://img.shields.io/badge/Java-73.2%25-brightgreen.svg)](https://github.com/nmahnic/Android-Serialport/search?l=C)
-[![Jcenter2.1](https://img.shields.io/badge/jcenter-2.1-brightgreen.svg)](https://bintray.com/nmahnic/maven/serialport)
-![Maven Central](https://img.shields.io/maven-central/v/com.github.nmahnic/serialport)
 [![GitHub license](https://img.shields.io/github/license/nmahnic/Android-Serialport.svg)](https://github.com/nmahnic/Android-Serialport)
 
 # Usage
-1. Open your root  `build.gradle` and add `mavenCentral()`: 
+1. Open your root  `build.gradle` and add `maven { url = uri("https://jitpack.io") }`: 
 ```
 allprojects {
-    repositories {
-        ...
-        mavenCentral()
-    }
+        repositories {
+            ...
+			mavenCentral()
+			maven { url = uri("https://jitpack.io") }
+		}
 }
 ```
 2. To add a dependency to your project, specify a dependency configuration such as implementation in the dependencies block of your module's build.gradle file.
@@ -101,6 +100,7 @@ serialHelper.setStickPackageHelper(AbsStickPackageHelper mStickPackageHelper);
 PC-side debugging tools  [Serial debugging tool for Win](https://github.com/nmahnic/Android-Serialport/raw/master/serial_port_utility_latest.exe)
 
 # Changelog
+## [1.0.0](https://github.com/nmahnic/Android-Serialport/tree/v1.0.0)
 ### Added
 - Basic function, serial port set serial port number, baud rate, send and receive data
 
