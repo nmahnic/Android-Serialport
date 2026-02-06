@@ -26,7 +26,7 @@ allprojects {
 2. To add a dependency to your project, specify a dependency configuration such as implementation in the dependencies block of your module's build.gradle file.
 ```
 dependencies {
-    implementation 'io.github.nmahnic:serialport:1.0.0'
+    implementation 'com.github.nmahnic:serialport:v1.0.0'
 }
 ```
 # Attribute
