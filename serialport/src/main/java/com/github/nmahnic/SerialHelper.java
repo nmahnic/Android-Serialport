@@ -1,4 +1,4 @@
-package tp.xmaihh.serialport;
+package com.github.nmahnic;
 
 import android.util.Log;
 
@@ -9,10 +9,10 @@ import java.io.OutputStream;
 import java.security.InvalidParameterException;
 
 import android_serialport_api.SerialPort;
-import tp.xmaihh.serialport.bean.ComBean;
-import tp.xmaihh.serialport.stick.AbsStickPackageHelper;
-import tp.xmaihh.serialport.stick.BaseStickPackageHelper;
-import tp.xmaihh.serialport.utils.ByteUtil;
+import com.github.nmahnic.bean.ComBean;
+import com.github.nmahnic.stick.AbsStickPackageHelper;
+import com.github.nmahnic.stick.BaseStickPackageHelper;
+import com.github.nmahnic.utils.ByteUtil;
 
 public abstract class SerialHelper {
     private SerialPort mSerialPort;

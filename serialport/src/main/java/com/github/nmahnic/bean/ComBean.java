@@ -1,4 +1,4 @@
-package tp.xmaihh.serialport.bean;
+package com.github.nmahnic.bean;
 
 import android.os.Parcel;
 import android.os.Parcelable;

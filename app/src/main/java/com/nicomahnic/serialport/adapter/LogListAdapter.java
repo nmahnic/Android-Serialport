@@ -1,8 +1,8 @@
-package com.ex.serialport.adapter;
+package com.nicomahnic.serialport.adapter;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.viewholder.BaseViewHolder;
-import com.ex.serialport.R;
+import com.nicomahnic.serialport.R;
 
 import java.util.List;
 

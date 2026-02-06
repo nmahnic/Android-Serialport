@@ -1,6 +1,10 @@
-apply plugin: 'com.android.library'
+plugins {
+    id 'com.android.library'
+    id 'maven-publish'
+}
 
 android {
+    namespace 'com.github.nmahnic.serialport'
     compileSdk = libs.versions.maxSdk.get().toInteger()
 
     ndkVersion = libs.versions.ndk.get()
@@ -24,6 +28,24 @@ android {
             path "CMakeLists.txt"
         }
     }
-    namespace 'tp.xmaihh.serialport'
+
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+        }
+    }
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = "com.github.nmahnic"
+                artifactId = "serialport"
+                version = "1.0.0"
+            }
+        }
+    }
 }
 

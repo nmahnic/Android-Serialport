@@ -1,4 +1,4 @@
-package com.ex.serialport;
+package com.nicomahnic.serialport;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -24,8 +24,9 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ex.serialport.adapter.LogListAdapter;
-import com.ex.serialport.adapter.SpAdapter;
+import com.nicomahnic.serialport.adapter.LogListAdapter;
+import com.nicomahnic.serialport.adapter.SpAdapter;
+import com.nicomahnic.serialport.R;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -33,9 +34,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import android_serialport_api.SerialPortFinder;
-import tp.xmaihh.serialport.SerialHelper;
-import tp.xmaihh.serialport.bean.ComBean;
-import tp.xmaihh.serialport.utils.ByteUtil;
+import com.github.nmahnic.SerialHelper;
+import com.github.nmahnic.bean.ComBean;
+import com.github.nmahnic.utils.ByteUtil;
 
 public class MainActivity extends AppCompatActivity {
 
